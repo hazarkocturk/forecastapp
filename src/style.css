@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tahoma", "Helvetica Neue",;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./gorgeous-clouds-background-with-blue-sky-design_1017-25501.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+form{
+  margin-top: 20px;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+}
+
+.chart-container {
+  margin-top: 20px;
+  position: relative;
+  width: 90%;
+  max-height: 35vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.chart-canvas {
+  margin: 10px 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.top{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+#cityName {
+border: 0;
+outline: 0;
+color: rgb(60, 66, 87);
+background-color: rgb(255, 255, 255);
+box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+border-radius: 4px;
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+padding: 4px 8px;
+min-height: 28px;
+vertical-align: middle;
+text-align: center;
+transition: background-color .24s,box-shadow .24s;
+transition-property: background-color, box-shadow;
+transition-duration: 0.24s, 0.24s;
+transition-timing-function: ease, ease;
+transition-delay: 0s, 0s;
+}
+#cityName:focus{
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(58 151 212 / 36%) 0px 0px 0px 4px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+}
+
+.button-haz {
+background-color: #fff;
+border: 1px solid #d5d9d9;
+border-radius: 8px;
+box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+box-sizing: border-box;
+color: #0f1111;
+cursor: pointer;
+display: block;
+font-family: "Amazon Ember",sans-serif;
+font-size: 13px;
+line-height: 29px;
+padding: 0 10px 0 11px;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+width: 100px;
+}
+
+.button-haz:hover {
+background-color: #40dcdc;
+}
+
+.button-haz:focus {
+border-color: #008296;
+box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+outline: 0;
+}
